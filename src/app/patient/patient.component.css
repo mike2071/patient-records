@@ -1,0 +1,4 @@
+.mat-list > .mat-list-item span:first-of-type {
+  width: 30%;
+  padding-right: 12px;
+}

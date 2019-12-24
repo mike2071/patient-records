@@ -1,0 +1,11 @@
+<mat-list-item>
+    <p mat-line> <span>ID: </span>
+        <span>{{patient.UniqueIdentifier}}</span>
+    </p>
+    <h4 mat-line>
+        <span>Patient: </span>
+        <span>{{patient.Forenames}} {{patient.Surname}}</span>
+    </h4>
+    <p mat-line> {{patient.Postcode}}</p>
+    <p mat-line> {{patient.DateOfBirth | date}}</p>
+</mat-list-item>
